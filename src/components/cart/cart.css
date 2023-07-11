@@ -1,0 +1,35 @@
+.carts img{
+    margin: 20px 15px 2px 15px;
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+}
+.carts
+{
+    margin: 15px;
+    border:4px solid brown;
+    width: 300px;
+    height: 425px;
+    border-radius: 8px;
+    position: relative;
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.orderBtn
+{
+    border: 0;
+    font-weight: 600;
+    width: 100%;
+    height: 35px;
+    bottom: 0px;
+    left: 0;
+    position: absolute;
+    border-radius: 0 0 8px 8px;
+    background-color: rgba(20, 219, 70, 0.3);
+}
+.orderBtn:hover{
+    background-color: rgba(20, 219, 23, 0.6);
+}

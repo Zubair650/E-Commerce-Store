@@ -1,0 +1,16 @@
+.summary
+{
+    padding: 40px;
+    margin: 20px;
+    color: crimson;
+    border: 3px solid rgb(255, 38, 0);
+    border-radius: 8px;
+    background-color: rgba(169, 169, 169,0.1);
+    position: sticky;
+    top:100px;
+}
+.layout
+{
+    display: flex;
+    justify-content: space-around;
+}
